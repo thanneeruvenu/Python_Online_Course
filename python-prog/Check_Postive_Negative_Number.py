@@ -2,7 +2,7 @@
 try :
     n = int(input("enter the value of n"))
     output = "Negative"
-    if n > 0 :
+    if n >= 0 :
         output = "Positive"
         
     print("Given {} is %s".format(n)%output)
